@@ -1,51 +1,44 @@
+using System.Collections;
 using Enemy;
 using UnityEngine;
-
 namespace Player
 {
-    public class RaycastShoot : MonoBehaviour
+    public class Combat : MonoBehaviour
     {
-        [SerializeField]
-        private float maximumHitDistance;
-        [SerializeField]
-        private float maximumShootDistance;
-        private Camera _myCamera;
-        private AudioSource _audio;
-        private void Start()
+        private bool _isShooting = false;
+        private bool _isArmed = false;
+        private  IEnumerator ShootCoroutine(Animator animator,AudioSource audio,BotsAI enemy)
         {
-            _myCamera = Camera.main;
-            _audio = GetComponent<AudioSource>();
-            
-        }
-        private void Update()
-        {
-            if(Input.GetMouseButtonDown(0))
+            if (!_isArmed)
             {
-                Ray chooseTargetRay = _myCamera.ScreenPointToRay(Input.mousePosition);
-                if(Physics.Raycast(chooseTargetRay,out RaycastHit hitInfo,Mathf.Infinity,1<<13))
+                _isArmed = true;
+                animator.Play("Unsheathe");
+                yield return new WaitForSeconds(2f);
+            }
+            _isShooting = true; 
+            animator.Play("Shoot");
+            yield return new WaitForSeconds(1.5f);
+            audio.Play();
+            yield return new WaitForSeconds(.5f);
+            enemy.TakeDamage(40);
+            animator.Play("Stop");
+            _isShooting = false;
+        }
+
+        public void RaycastShoot(AudioSource audio, Camera camera, float maximumShootDistance,
+            float maximumHitDisctance, Transform attacker, Animator animator,GameObject target)
+        {
+            if (Vector3.Distance(attacker.position, target.transform.position) <= maximumShootDistance)
+            {
+                var position = attacker.position;
+                Ray shootRay = new Ray(position, target.transform.position - position);
+                if(Physics.Raycast(shootRay,out RaycastHit enemyHitInfo, maximumShootDistance,~(1<<14)))
                 {
-                    print("Ray hit enemy");
-                    if (Vector3.Distance(transform.position, hitInfo.transform.position) <= maximumShootDistance)
+                    if(enemyHitInfo.transform.gameObject.layer==(int)Layers.Enemies)
                     {
-                        Ray shootRay = new Ray(transform.position, hitInfo.transform.position - transform.position);
-                        if(Physics.Raycast(shootRay,out RaycastHit enemyHitInfo, maximumShootDistance,~(1<<14)))
-                        {
-                            if(enemyHitInfo.transform.gameObject.layer==13)
-                            {
-                                BotsAI enemyObject = enemyHitInfo.transform.gameObject.GetComponentInParent<BotsAI>();
-                                _audio.Play();
-                                if(enemyObject.IsAlive)
-                                    enemyObject.TakeDamage(40.0f);
-                            }
-                            else
-                            {
-                                print("No enemy hit");
-                            }
-                        }
-                    }
-                    else
-                    {
-                        print("You are too far away");
+                        BotsAI enemyObject = enemyHitInfo.transform.gameObject.GetComponentInParent<BotsAI>();
+                        if (enemyObject.IsAlive&&!_isShooting)
+                            StartCoroutine(ShootCoroutine(animator,audio,enemyObject));
                     }
                 }
             }

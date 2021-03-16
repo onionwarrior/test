@@ -37,6 +37,10 @@ namespace Enemy
                     Random.Range(-patrolDistance, patrolDistance));
                 ChangeDestination(destination);
             }
+            else
+            {
+                destination = SceneManage.SceneManager.Instance.player.transform.position;
+            }
         }
         
         private void ChangeDestination(Vector3 destination)
