@@ -1,0 +1,534 @@
+fileFormatVersion: 2
+guid: 47c8f9ce2780f9d43b33c48f29ec36fb
+ModelImporter:
+  serializedVersion: 20200
+  internalIDToNameTable:
+  - first:
+      74: -7193596178653610399
+    second: Cube_014.001|Cube_014.001|Cube_014.001|Cube_014.001|Cube_014.001|Cube_01
+  - first:
+      74: 7896017797285964367
+    second: Cube_014.001|Cube_014.001|Cube_014.001|Cube_014.001|Cube_014.001|Cube_01.001
+  - first:
+      74: 515569861983577514
+    second: Cube_014.001|Cube_014.001|Cube_014.001|Cube_014.001|Cube_014.001|Cube_014.00
+  - first:
+      74: 3629004328078707128
+    second: Cube_014.001|Cube_014.001|Cube_014.001|Cube_014.001|Cube_014.001|Cube_014|Ta
+  - first:
+      74: 7370815847567232537
+    second: Cube_014.001|Cube_014.001|Cube_014.001|Cube_014.002|Cube_014.002|Cube_01
+  - first:
+      74: 8551938393387994332
+    second: Cube_014.001|Cube_014.001|Cube_014.001|Cube_014.002|Cube_014.002|Cube_01.001
+  - first:
+      74: 8059272356433584785
+    second: Cube_014.001|Cube_014.001|Cube_014.001|Cube_014.002|Cube_014.002|Cube_01.002
+  - first:
+      74: 714874324325694164
+    second: Cube_014.001|Cube_014.001|Cube_014.001|Cube_014.002|Cube_014.002|Cube_014.00
+  - first:
+      74: -5817795671844674802
+    second: Cube_014.001|Cube_014.001|Cube_014.001|Cube_014.002|Cube_014.002|Cube_014|Ta
+  - first:
+      74: 8910619746193970317
+    second: Cube_014.001|Cube_014.001|Cube_014.001|Cube_014.002|Take 001|BaseLayer.001|C
+  - first:
+      74: -6421522489596791488
+    second: Cube_014.001|Cube_014.001|Cube_014.001|Cube_014.002|Take 001|BaseLayer|Cube_
+  - first:
+      74: -992736009682936227
+    second: Cube_014.001|Cube_014.001|Cube_014.001|Cube_014|Take 001|BaseLayer.001|Cube_
+  - first:
+      74: 4516510832052086768
+    second: Cube_014.001|Cube_014.001|Cube_014.001|Cube_014|Take 001|BaseLayer|Cube_014.
+  - first:
+      74: 5710978945466718217
+    second: Cube_014.001|Cube_014.002|Cube_014.002|Cube_014.001|Cube_014.001|Cube_01
+  - first:
+      74: 8962670885406127062
+    second: Cube_014.001|Cube_014.002|Cube_014.002|Cube_014.001|Cube_014.001|Cube_01.001
+  - first:
+      74: -7613926070734411888
+    second: Cube_014.001|Cube_014.002|Cube_014.002|Cube_014.001|Cube_014.001|Cube_01.002
+  - first:
+      74: 4423028836172064217
+    second: Cube_014.001|Cube_014.002|Cube_014.002|Cube_014.001|Cube_014.001|Cube_014.00
+  - first:
+      74: -6996447917647791739
+    second: Cube_014.001|Cube_014.002|Cube_014.002|Cube_014.001|Cube_014.001|Cube_014|Ta
+  - first:
+      74: 2049227298226833296
+    second: Cube_014.001|Cube_014.002|Cube_014.002|Cube_014.002|Cube_014.002|Cube_01
+  - first:
+      74: -5200326726049326105
+    second: Cube_014.001|Cube_014.002|Cube_014.002|Cube_014.002|Cube_014.002|Cube_01.001
+  - first:
+      74: -5574938263112696902
+    second: Cube_014.001|Cube_014.002|Cube_014.002|Cube_014.002|Cube_014.002|Cube_01.002
+  - first:
+      74: -4896656974871996431
+    second: Cube_014.001|Cube_014.002|Cube_014.002|Cube_014.002|Cube_014.002|Cube_014.00
+  - first:
+      74: -1213641612464920845
+    second: Cube_014.001|Cube_014.002|Cube_014.002|Cube_014.002|Cube_014.002|Cube_014|Ta
+  - first:
+      74: -4424753466752716881
+    second: Cube_014.001|Cube_014.002|Cube_014.002|Cube_014.002|Take 001|BaseLayer.001|C
+  - first:
+      74: 4508292141439914792
+    second: Cube_014.001|Cube_014.002|Cube_014.002|Cube_014.002|Take 001|BaseLayer|Cube_
+  - first:
+      74: -1103287896774536649
+    second: Cube_014.001|Cube_014.002|Cube_014.002|Cube_014|Take 001|BaseLayer.001|Cube_
+  - first:
+      74: -8798327370253011002
+    second: Cube_014.001|Cube_014.002|Cube_014.002|Cube_014|Take 001|BaseLayer|Cube_014.
+  - first:
+      74: -6227549299444537248
+    second: Cube_014.001|Cube_014.003|Cube_014.003|Cube_014.001|Cube_014.001|Cube_01
+  - first:
+      74: 7159701771181760478
+    second: Cube_014.001|Cube_014.003|Cube_014.003|Cube_014.001|Cube_014.001|Cube_01.001
+  - first:
+      74: 9077704745240956438
+    second: Cube_014.001|Cube_014.003|Cube_014.003|Cube_014.001|Cube_014.001|Cube_014.00
+  - first:
+      74: 8713345357474940957
+    second: Cube_014.001|Cube_014.003|Cube_014.003|Cube_014.001|Cube_014.001|Cube_014|Ta
+  - first:
+      74: 4933389947773604404
+    second: Cube_014.001|Cube_014.003|Cube_014.003|Cube_014.002|Cube_014.002|Cube_01
+  - first:
+      74: 1442117933889392372
+    second: Cube_014.001|Cube_014.003|Cube_014.003|Cube_014.002|Cube_014.002|Cube_01.001
+  - first:
+      74: 4551529880730919192
+    second: Cube_014.001|Cube_014.003|Cube_014.003|Cube_014.002|Cube_014.002|Cube_01.002
+  - first:
+      74: 6499486453080942303
+    second: Cube_014.001|Cube_014.003|Cube_014.003|Cube_014.002|Cube_014.002|Cube_014.00
+  - first:
+      74: -5983760359387290098
+    second: Cube_014.001|Cube_014.003|Cube_014.003|Cube_014.002|Cube_014.002|Cube_014|Ta
+  - first:
+      74: 2335307634524372465
+    second: Cube_014.002|Cube_014.001|Cube_014.001|Cube_014.001|Cube_014.001|Cube_01
+  - first:
+      74: -9171383963550268244
+    second: Cube_014.002|Cube_014.001|Cube_014.001|Cube_014.001|Cube_014.001|Cube_01.001
+  - first:
+      74: 2474085260037023345
+    second: Cube_014.002|Cube_014.001|Cube_014.001|Cube_014.001|Cube_014.001|Cube_014.00
+  - first:
+      74: 2529603026706724359
+    second: Cube_014.002|Cube_014.001|Cube_014.001|Cube_014.001|Cube_014.001|Cube_014|Ta
+  - first:
+      74: -6046169321296901578
+    second: Cube_014.002|Cube_014.001|Cube_014.001|Cube_014.002|Cube_014.002|Cube_01
+  - first:
+      74: -3307461937646595985
+    second: Cube_014.002|Cube_014.001|Cube_014.001|Cube_014.002|Cube_014.002|Cube_01.001
+  - first:
+      74: 6654096587474645676
+    second: Cube_014.002|Cube_014.001|Cube_014.001|Cube_014.002|Cube_014.002|Cube_01.002
+  - first:
+      74: 6727968892826383137
+    second: Cube_014.002|Cube_014.001|Cube_014.001|Cube_014.002|Cube_014.002|Cube_014.00
+  - first:
+      74: 985686651493027756
+    second: Cube_014.002|Cube_014.001|Cube_014.001|Cube_014.002|Cube_014.002|Cube_014|Ta
+  - first:
+      74: -7434949176524174429
+    second: Cube_014.002|Cube_014.001|Cube_014.001|Cube_014.002|Take 001|BaseLayer.001|C
+  - first:
+      74: -9022920506457735565
+    second: Cube_014.002|Cube_014.001|Cube_014.001|Cube_014.002|Take 001|BaseLayer|Cube_
+  - first:
+      74: -6503555897815104256
+    second: Cube_014.002|Cube_014.001|Cube_014.001|Cube_014|Take 001|BaseLayer.001|Cube_
+  - first:
+      74: 7619059360664399798
+    second: Cube_014.002|Cube_014.001|Cube_014.001|Cube_014|Take 001|BaseLayer|Cube_014.
+  - first:
+      74: 4868098037873148804
+    second: Cube_014.002|Cube_014.002|Cube_014.002|Cube_014.001|Cube_014.001|Cube_01
+  - first:
+      74: -797424641770780510
+    second: Cube_014.002|Cube_014.002|Cube_014.002|Cube_014.001|Cube_014.001|Cube_01.001
+  - first:
+      74: 1076724364367161905
+    second: Cube_014.002|Cube_014.002|Cube_014.002|Cube_014.001|Cube_014.001|Cube_01.002
+  - first:
+      74: 2179308230555434695
+    second: Cube_014.002|Cube_014.002|Cube_014.002|Cube_014.001|Cube_014.001|Cube_014.00
+  - first:
+      74: 232732875302416317
+    second: Cube_014.002|Cube_014.002|Cube_014.002|Cube_014.001|Cube_014.001|Cube_014|Ta
+  - first:
+      74: -3631143729366054241
+    second: Cube_014.002|Cube_014.002|Cube_014.002|Cube_014.002|Cube_014.002|Cube_01
+  - first:
+      74: 7431345455954194828
+    second: Cube_014.002|Cube_014.002|Cube_014.002|Cube_014.002|Cube_014.002|Cube_01.001
+  - first:
+      74: -6449480502165021382
+    second: Cube_014.002|Cube_014.002|Cube_014.002|Cube_014.002|Cube_014.002|Cube_01.002
+  - first:
+      74: -4803101584330844662
+    second: Cube_014.002|Cube_014.002|Cube_014.002|Cube_014.002|Cube_014.002|Cube_014.00
+  - first:
+      74: -3264676651019054750
+    second: Cube_014.002|Cube_014.002|Cube_014.002|Cube_014.002|Cube_014.002|Cube_014|Ta
+  - first:
+      74: -4281545397421407969
+    second: Cube_014.002|Cube_014.002|Cube_014.002|Cube_014.002|Take 001|BaseLayer.001|C
+  - first:
+      74: -6258916923535709908
+    second: Cube_014.002|Cube_014.002|Cube_014.002|Cube_014.002|Take 001|BaseLayer|Cube_
+  - first:
+      74: -433044231721397612
+    second: Cube_014.002|Cube_014.002|Cube_014.002|Cube_014|Take 001|BaseLayer.001|Cube_
+  - first:
+      74: -5173230147962155949
+    second: Cube_014.002|Cube_014.002|Cube_014.002|Cube_014|Take 001|BaseLayer|Cube_014.
+  - first:
+      74: 2377269707856857463
+    second: Cube_014.002|Cube_014.003|Cube_014.003|Cube_014.001|Cube_014.001|Cube_01
+  - first:
+      74: -7727024652710209365
+    second: Cube_014.002|Cube_014.003|Cube_014.003|Cube_014.001|Cube_014.001|Cube_01.001
+  - first:
+      74: 2762328082702650789
+    second: Cube_014.002|Cube_014.003|Cube_014.003|Cube_014.001|Cube_014.001|Cube_014.00
+  - first:
+      74: 142508349341131928
+    second: Cube_014.002|Cube_014.003|Cube_014.003|Cube_014.001|Cube_014.001|Cube_014|Ta
+  - first:
+      74: 9219031965864187929
+    second: Cube_014.002|Cube_014.003|Cube_014.003|Cube_014.002|Cube_014.002|Cube_01
+  - first:
+      74: -9157762900657349464
+    second: Cube_014.002|Cube_014.003|Cube_014.003|Cube_014.002|Cube_014.002|Cube_01.001
+  - first:
+      74: -4024229124314821420
+    second: Cube_014.002|Cube_014.003|Cube_014.003|Cube_014.002|Cube_014.002|Cube_01.002
+  - first:
+      74: -5778145414326231527
+    second: Cube_014.002|Cube_014.003|Cube_014.003|Cube_014.002|Cube_014.002|Cube_014.00
+  - first:
+      74: -5041506489264020277
+    second: Cube_014.002|Cube_014.003|Cube_014.003|Cube_014.002|Cube_014.002|Cube_014|Ta
+  - first:
+      74: 5765804885498178569
+    second: Door_2|Cube_014.001|Cube_014.001|Cube_014.001|Cube_014.001|Cube_01
+  - first:
+      74: 6099646794938050333
+    second: Door_2|Cube_014.001|Cube_014.001|Cube_014.001|Cube_014.001|Cube_01.001
+  - first:
+      74: -5593588304843870227
+    second: Door_2|Cube_014.001|Cube_014.001|Cube_014.001|Cube_014.001|Cube_014.00
+  - first:
+      74: -5326856306911818337
+    second: Door_2|Cube_014.001|Cube_014.001|Cube_014.001|Cube_014.001|Cube_014|Ta
+  - first:
+      74: 213467525613921548
+    second: Door_2|Cube_014.001|Cube_014.001|Cube_014.002|Cube_014.002|Cube_01
+  - first:
+      74: -1010562952197690682
+    second: Door_2|Cube_014.001|Cube_014.001|Cube_014.002|Cube_014.002|Cube_01.001
+  - first:
+      74: 4406757959175339191
+    second: Door_2|Cube_014.001|Cube_014.001|Cube_014.002|Cube_014.002|Cube_01.002
+  - first:
+      74: -932269952372434661
+    second: Door_2|Cube_014.001|Cube_014.001|Cube_014.002|Cube_014.002|Cube_014.00
+  - first:
+      74: 8335584211098328181
+    second: Door_2|Cube_014.001|Cube_014.001|Cube_014.002|Cube_014.002|Cube_014|Ta
+  - first:
+      74: 6488846178187021474
+    second: Door_2|Cube_014.001|Cube_014.001|Cube_014.002|Take 001|BaseLayer.001|C
+  - first:
+      74: -1473445421937442936
+    second: Door_2|Cube_014.001|Cube_014.001|Cube_014.002|Take 001|BaseLayer|Cube_
+  - first:
+      74: 6719700545026941075
+    second: Door_2|Cube_014.001|Cube_014.001|Cube_014|Take 001|BaseLayer.001|Cube_
+  - first:
+      74: 8300333860850511192
+    second: Door_2|Cube_014.001|Cube_014.001|Cube_014|Take 001|BaseLayer|Cube_014.
+  - first:
+      74: -2946522335487862761
+    second: Door_2|Cube_014.002|Cube_014.002|Cube_014.001|Cube_014.001|Cube_01
+  - first:
+      74: 6060953075216207910
+    second: Door_2|Cube_014.002|Cube_014.002|Cube_014.001|Cube_014.001|Cube_01.001
+  - first:
+      74: 7168141610770572033
+    second: Door_2|Cube_014.002|Cube_014.002|Cube_014.001|Cube_014.001|Cube_01.002
+  - first:
+      74: -4920865863842513244
+    second: Door_2|Cube_014.002|Cube_014.002|Cube_014.001|Cube_014.001|Cube_014.00
+  - first:
+      74: 1037065077652741734
+    second: Door_2|Cube_014.002|Cube_014.002|Cube_014.001|Cube_014.001|Cube_014|Ta
+  - first:
+      74: 4797347558286351160
+    second: Door_2|Cube_014.002|Cube_014.002|Cube_014.002|Cube_014.002|Cube_01
+  - first:
+      74: -7821660658675525048
+    second: Door_2|Cube_014.002|Cube_014.002|Cube_014.002|Cube_014.002|Cube_01.001
+  - first:
+      74: -9042824193863554489
+    second: Door_2|Cube_014.002|Cube_014.002|Cube_014.002|Cube_014.002|Cube_01.002
+  - first:
+      74: -4752079482675462243
+    second: Door_2|Cube_014.002|Cube_014.002|Cube_014.002|Cube_014.002|Cube_014.00
+  - first:
+      74: -7029821754557616442
+    second: Door_2|Cube_014.002|Cube_014.002|Cube_014.002|Cube_014.002|Cube_014|Ta
+  - first:
+      74: -7172518356338054710
+    second: Door_2|Cube_014.002|Cube_014.002|Cube_014.002|Take 001|BaseLayer.001|C
+  - first:
+      74: 9015020907244854770
+    second: Door_2|Cube_014.002|Cube_014.002|Cube_014.002|Take 001|BaseLayer|Cube_
+  - first:
+      74: 2037343091220548518
+    second: Door_2|Cube_014.002|Cube_014.002|Cube_014|Take 001|BaseLayer.001|Cube_
+  - first:
+      74: 1477113524288345525
+    second: Door_2|Cube_014.002|Cube_014.002|Cube_014|Take 001|BaseLayer|Cube_014.
+  - first:
+      74: 6307647466077790117
+    second: Door_2|Cube_014.003|Cube_014.003|Cube_014.001|Cube_014.001|Cube_01
+  - first:
+      74: -2777619376614537013
+    second: Door_2|Cube_014.003|Cube_014.003|Cube_014.001|Cube_014.001|Cube_01.001
+  - first:
+      74: 8862892037506467937
+    second: Door_2|Cube_014.003|Cube_014.003|Cube_014.001|Cube_014.001|Cube_014.00
+  - first:
+      74: -3269798974793279516
+    second: Door_2|Cube_014.003|Cube_014.003|Cube_014.001|Cube_014.001|Cube_014|Ta
+  - first:
+      74: 9180233904192586718
+    second: Door_2|Cube_014.003|Cube_014.003|Cube_014.002|Cube_014.002|Cube_01
+  - first:
+      74: 1526107350391966079
+    second: Door_2|Cube_014.003|Cube_014.003|Cube_014.002|Cube_014.002|Cube_01.001
+  - first:
+      74: -3989914205954609279
+    second: Door_2|Cube_014.003|Cube_014.003|Cube_014.002|Cube_014.002|Cube_01.002
+  - first:
+      74: 1032601773776789540
+    second: Door_2|Cube_014.003|Cube_014.003|Cube_014.002|Cube_014.002|Cube_014.00
+  - first:
+      74: -2170311639926863917
+    second: Door_2|Cube_014.003|Cube_014.003|Cube_014.002|Cube_014.002|Cube_014|Ta
+  - first:
+      74: -1024526778298454256
+    second: Door_1|Cube_014.001|Cube_014.001|Cube_014.001|Cube_014.001|Cube_01
+  - first:
+      74: 2735791397090936082
+    second: Door_1|Cube_014.001|Cube_014.001|Cube_014.001|Cube_014.001|Cube_01.001
+  - first:
+      74: -2039173542579404683
+    second: Door_1|Cube_014.001|Cube_014.001|Cube_014.001|Cube_014.001|Cube_014.00
+  - first:
+      74: -949948636995004636
+    second: Door_1|Cube_014.001|Cube_014.001|Cube_014.001|Cube_014.001|Cube_014|Ta
+  - first:
+      74: -2682032088680172821
+    second: Door_1|Cube_014.001|Cube_014.001|Cube_014.002|Cube_014.002|Cube_01
+  - first:
+      74: 4509762288949547185
+    second: Door_1|Cube_014.001|Cube_014.001|Cube_014.002|Cube_014.002|Cube_01.001
+  - first:
+      74: -5751955306537016686
+    second: Door_1|Cube_014.001|Cube_014.001|Cube_014.002|Cube_014.002|Cube_01.002
+  - first:
+      74: -2904335820423690999
+    second: Door_1|Cube_014.001|Cube_014.001|Cube_014.002|Cube_014.002|Cube_014.00
+  - first:
+      74: 5839129856147134721
+    second: Door_1|Cube_014.001|Cube_014.001|Cube_014.002|Cube_014.002|Cube_014|Ta
+  - first:
+      74: 3131026918587741679
+    second: Door_1|Cube_014.001|Cube_014.001|Cube_014.002|Take 001|BaseLayer.001|C
+  - first:
+      74: 5659354104046907347
+    second: Door_1|Cube_014.001|Cube_014.001|Cube_014.002|Take 001|BaseLayer|Cube_
+  - first:
+      74: 5141157810517759892
+    second: Door_1|Cube_014.001|Cube_014.001|Cube_014|Take 001|BaseLayer.001|Cube_
+  - first:
+      74: -7392504647474581679
+    second: Door_1|Cube_014.001|Cube_014.001|Cube_014|Take 001|BaseLayer|Cube_014.
+  - first:
+      74: 8645797048866116942
+    second: Door_1|Cube_014.002|Cube_014.002|Cube_014.001|Cube_014.001|Cube_01
+  - first:
+      74: -5820126354022221373
+    second: Door_1|Cube_014.002|Cube_014.002|Cube_014.001|Cube_014.001|Cube_01.001
+  - first:
+      74: -3335246052839383344
+    second: Door_1|Cube_014.002|Cube_014.002|Cube_014.001|Cube_014.001|Cube_01.002
+  - first:
+      74: -8127879696563082462
+    second: Door_1|Cube_014.002|Cube_014.002|Cube_014.001|Cube_014.001|Cube_014.00
+  - first:
+      74: -6430978519867621427
+    second: Door_1|Cube_014.002|Cube_014.002|Cube_014.001|Cube_014.001|Cube_014|Ta
+  - first:
+      74: -2219078029217912422
+    second: Door_1|Cube_014.002|Cube_014.002|Cube_014.002|Cube_014.002|Cube_01
+  - first:
+      74: -7680389367620390169
+    second: Door_1|Cube_014.002|Cube_014.002|Cube_014.002|Cube_014.002|Cube_01.001
+  - first:
+      74: 1293292989159979168
+    second: Door_1|Cube_014.002|Cube_014.002|Cube_014.002|Cube_014.002|Cube_01.002
+  - first:
+      74: -8519597079157422819
+    second: Door_1|Cube_014.002|Cube_014.002|Cube_014.002|Cube_014.002|Cube_014.00
+  - first:
+      74: -6242354207053912934
+    second: Door_1|Cube_014.002|Cube_014.002|Cube_014.002|Cube_014.002|Cube_014|Ta
+  - first:
+      74: 3374897628072210904
+    second: Door_1|Cube_014.002|Cube_014.002|Cube_014.002|Take 001|BaseLayer.001|C
+  - first:
+      74: -5496555722937474294
+    second: Door_1|Cube_014.002|Cube_014.002|Cube_014.002|Take 001|BaseLayer|Cube_
+  - first:
+      74: -5900433054672428995
+    second: Door_1|Cube_014.002|Cube_014.002|Cube_014|Take 001|BaseLayer.001|Cube_
+  - first:
+      74: -3891685084249071713
+    second: Door_1|Cube_014.002|Cube_014.002|Cube_014|Take 001|BaseLayer|Cube_014.
+  - first:
+      74: -8151152183537723580
+    second: Door_1|Cube_014.003|Cube_014.003|Cube_014.001|Cube_014.001|Cube_01
+  - first:
+      74: -4042620483428599140
+    second: Door_1|Cube_014.003|Cube_014.003|Cube_014.001|Cube_014.001|Cube_01.001
+  - first:
+      74: -4686112403675734954
+    second: Door_1|Cube_014.003|Cube_014.003|Cube_014.001|Cube_014.001|Cube_014.00
+  - first:
+      74: 4239899100518427318
+    second: Door_1|Cube_014.003|Cube_014.003|Cube_014.001|Cube_014.001|Cube_014|Ta
+  - first:
+      74: 124164377550376427
+    second: Door_1|Cube_014.003|Cube_014.003|Cube_014.002|Cube_014.002|Cube_01
+  - first:
+      74: -3343328416579355156
+    second: Door_1|Cube_014.003|Cube_014.003|Cube_014.002|Cube_014.002|Cube_01.001
+  - first:
+      74: -472764430598411918
+    second: Door_1|Cube_014.003|Cube_014.003|Cube_014.002|Cube_014.002|Cube_01.002
+  - first:
+      74: -7377034196727763178
+    second: Door_1|Cube_014.003|Cube_014.003|Cube_014.002|Cube_014.002|Cube_014.00
+  - first:
+      74: -2914445380542629608
+    second: Door_1|Cube_014.003|Cube_014.003|Cube_014.002|Cube_014.002|Cube_014|Ta
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
