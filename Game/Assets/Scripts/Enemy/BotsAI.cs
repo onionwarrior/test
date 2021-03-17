@@ -1,8 +1,5 @@
-using System;
-using System.Collections;
 using Code;
 using UnityEngine;
-using UnityEngine.Serialization;
 
 namespace Enemy
 {
@@ -10,7 +7,7 @@ namespace Enemy
     public class BotsAI : MonoBehaviour, IReactToDamage<float>
     {
         private Transform _player;
-        private float _healthPoints = 100;
+        private float _healthPoints = 300;
         public bool IsAlive { get; set; } = true;
         [SerializeField] private float visionAngle;
         [SerializeField] private float visionDistance;
@@ -36,6 +33,8 @@ namespace Enemy
             IsAlive = false;
             _animator.SetTrigger(Death);
             GetComponentInChildren<CapsuleCollider>().enabled = false;
+            _patroller.Stop();
+            _patroller.CancelInvoke();
         }
 
 
@@ -43,7 +42,7 @@ namespace Enemy
         {
             _healthPoints -= damage;
             _thisAudioSource.Play();
-            if(_healthPoints<=0)
+            if (_healthPoints <= 0)
                 Die();
         }
 
@@ -55,28 +54,22 @@ namespace Enemy
             }
         }
 
+
         private bool IsVisible()
         {
             Vector3 origin = transform.position;
-            var transform1 = SceneManage.SceneManager.Instance.player.gameObject.transform;
-            origin.y = transform1.position.y+3f;
-            float angleBetweenAIAndPlayer = Vector3.Angle(transform.forward, transform1.position-origin);
+            Transform plr= SceneManagement.SceneManager.Instance.player.gameObject.transform;
+            origin.y = plr.position.y + 3f;
+            float angleBetweenAIAndPlayer = Vector3.Angle(transform.forward, plr.position - origin);
             if (angleBetweenAIAndPlayer < visionAngle / 2.0f &&
                 Vector3.Distance(origin, rayCastTarget.transform.position) <= visionDistance)
             {
-                Ray visionRay = new Ray(origin, transform1.position - origin);
+                Ray visionRay = new Ray(origin, plr.position - origin);
                 if (Physics.Raycast(visionRay, out RaycastHit hitObject, visionDistance))
                 {
-                    print(hitObject.transform.gameObject.layer);
-                    if (hitObject.transform.gameObject.layer == (int)Layers.Player)
-                    {
+                    if (hitObject.transform.gameObject.layer == (int) Layers.Player)
                         return true;
-                    }
                 }
-                Debug.DrawRay(visionRay.origin,visionRay.direction*100,Color.blue,20.0f);
-                
-                
-                
             }
 
             return false;
@@ -85,11 +78,7 @@ namespace Enemy
         void Update()
         {
             if (IsAlive)
-            {
                 _patroller.IsPatrolling = !IsVisible();
-                if(!_patroller.IsPatrolling)
-                    _patroller.CancelInvoke();
-            }
         }
 
         //void OnGUI() 

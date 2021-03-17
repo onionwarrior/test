@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using Enemy;
-using SceneManage;
+using SceneManagement;
 using UnityEngine;
 using NonPlayableCharacters;
 namespace QuestSystem

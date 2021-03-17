@@ -61,7 +61,7 @@
      <Compile Include="Assets\Scripts\Objects\Pickable\WorldItems.cs" />
      <Compile Include="Assets\Scripts\GameCamera\CursorScript.cs" />
      <Compile Include="Assets\Scripts\Player\MakeSemiTransparent.cs" />
-     <Compile Include="Assets\Scripts\Player\RaycastShoot.cs" />
+     <Compile Include="Assets\Scripts\Player\Combat.cs" />
      <Compile Include="Assets\Scripts\NonPlayableCharacters\NPC.cs" />
      <Compile Include="Assets\Scripts\Enemy\BotsAI.cs" />
      <Compile Include="Assets\Scripts\Player\PlayerCharacter.cs" />
@@ -83,6 +83,9 @@
      <Compile Include="Assets\Scripts\SceneManagement\DontDestroy.cs" />
      <Compile Include="Assets\Scripts\InGameMenu\InventoryUI.cs" />
      <Compile Include="Assets\Scripts\GameCamera\CameraZoomScript.cs" />
+     <Compile Include="Assets\Scripts\Animations\IK.cs" />
+     <Compile Include="Assets\Scripts\Animations\AttatchToParent.cs" />
+     <Compile Include="Assets\Scripts\SceneManagement\ClickToLoad.cs" />
      <None Include="Assets\ImportedPackages\Conifers [BOTD]\Render Pipeline Support\Built-in RP\CTI Runtime Components\Shaders\CTI_LOD_Bark_Array_301.shader" />
      <None Include="Assets\Resources\Shaders\Outlined-Silhouette Only.shader" />
      <None Include="Assets\ImportedPackages\Standard Assets\Effects\Projectors\Shaders\ProjectorLight.shader" />

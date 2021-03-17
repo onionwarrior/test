@@ -1,4 +1,4 @@
-using SceneManage;
+using SceneManagement;
 using UnityEngine;
 using NonPlayableCharacters;
 namespace QuestSystem

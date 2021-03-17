@@ -2,7 +2,13 @@ fileFormatVersion: 2
 guid: 95ab032a67de824489a59cc5ba407169
 ModelImporter:
   serializedVersion: 20200
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      74: 2091611678711521521
+    second: karr98k|ArmatureAction
+  - first:
+      74: -8942501050066182008
+    second: karr98k|karr98kAction
   externalObjects: {}
   materials:
     materialImportMode: 2

@@ -3,7 +3,7 @@ using Player;
 using UnityEngine;
 using QuestSystem;
 
-namespace SceneManage
+namespace SceneManagement
 {
         public class SceneManager : MonoBehaviour
         {
@@ -22,6 +22,7 @@ namespace SceneManage
                         player= FindObjectOfType<PlayerScript>();
                         print(player);
                 }
+                
                 private void Update()
                 {
                         if (Input.GetKeyDown(KeyCode.Space))

@@ -39,10 +39,14 @@ namespace Enemy
             }
             else
             {
-                destination = SceneManage.SceneManager.Instance.player.transform.position;
+                destination = SceneManagement.SceneManager.Instance.player.transform.position;
             }
         }
-        
+
+        public void Stop()
+        {
+            ChangeDestination(transform.position);
+        }
         private void ChangeDestination(Vector3 destination)
         {
             _agent.destination = destination;
@@ -51,10 +55,6 @@ namespace Enemy
         private void Update()
         {
             _animator.SetFloat(Velocity, _agent.velocity.magnitude );
-            if (!IsPatrolling)
-            {
-                ChangeDestination(SceneManage.SceneManager.Instance.player.transform.position);
-            }
         }
     }
 }
